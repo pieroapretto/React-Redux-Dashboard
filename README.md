@@ -1,6 +1,8 @@
 ## Introduction To Redux
 This is a pre made create-react-app project. When you run npm start the web page that comes up may appear familiar. A dashboard is a common type of user interface used to show a variety of information that is important in making decisions. It is usually read only which is perfect for practicing redux reducers. The data is currently being passed to components through props. Change the code to implement redux and remove any passing of props. The end user should see no change in the interface.
 
+![screenshot-2](/public/img/screenshot1.png)
+
 ### Key vocabulary
 Redux reducers, store & containers
 
@@ -76,4 +78,9 @@ Redux reducers, store & containers
 * Inside `App.js`:
   * Remove each component with a prop assignment
   * replace it with the appropriate container.
+
+### Bonus
+* Replace hardcoded HTML data inside `table.html` file with a React component and Redux store data.
+
+![screenshot-2](/public/img/screenshot2.png)
 
