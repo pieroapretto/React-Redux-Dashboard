@@ -8,7 +8,7 @@ Redux reducers, store & containers
 ### Objective
 * Remove prop inheritance from all React components without changing the dashboard UI
 
-## Evidence of Completion
+### Evidence of Completion
 * The dashboard looks the same as before
 * The `App` component declared inside `src/index.js` no longer takes state props
 * Components declared inside `src/App.js` no longer take props
@@ -74,5 +74,7 @@ Redux reducers, store & containers
   * Export the container
 
 ### Import containers into App component
-* Inside `App.js`, replace each component with a prop assignment and replace it with the appropriate container.
+* Inside `App.js`:
+  * Remove each component with a prop assignment
+  * replace it with the appropriate container.
 
